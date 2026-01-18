@@ -3,7 +3,7 @@
 For now game running on macOS:🎉
 
 This is vibecode port to apple silicon
-Read details on: README FORK CHANGES.md
+Read details on: [README FORK CHANGES.md]([https://github.com/OpenDriver2/REDRIVER2/wiki/Installation-instructions](https://github.com/zhmrsk/REDRIVER2-Apple-Silicon/blob/fdb6a12a194850f1201d1134e46428d417c61862/README%20FORK%20CHANGES.md))
 
 Game running on Windows:
 
