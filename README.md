@@ -1,5 +1,10 @@
 # REDRIVER2 (Reverse-Engineered Driver 2)
 
+For now game running on macOS:🎉
+
+This is vibecode port to apple silicon
+Read details on: 
+
 Game running on Windows:
 
 ![](https://i.ibb.co/2q1pp06/red2.png)
