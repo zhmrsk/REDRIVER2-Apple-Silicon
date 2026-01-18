@@ -3,8 +3,8 @@ set -e
 
 echo "Building clean release of Driver 2..."
 
-# Paths
-PROJECT_ROOT="/Users/zhmursky/redriver2_dev/REDRIVER2 MacOS With Languages"
+# Paths - automatically detect project root from script location
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SRC_DIR="$PROJECT_ROOT/src_rebuild"
 BUILD_DIR="$SRC_DIR/bin/Release_dev"
 APP_NAME="REDRIVER2.app"
