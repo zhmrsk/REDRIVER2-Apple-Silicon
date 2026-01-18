@@ -3,7 +3,7 @@
 For now game running on macOS:🎉
 
 This is vibecode port to apple silicon
-Read details on: 
+Read details on: README FORK CHANGES.md
 
 Game running on Windows:
 
