@@ -1,0 +1,29 @@
+#ifndef XAPLAY_H
+#define XAPLAY_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern void StoreXASubtitles();
+extern void PrintXASubtitles(int yPos);
+extern void GetMissionXAData(int number); // 0x00082EC0
+
+extern void GetXAData(int number); // 0x00082D60
+extern void SetXAVolume(int volume); // 0x00082F18
+
+extern void PrepareXA(); // 0x00082DAC
+extern void PlayXA(int num, int index); // 0x00082C64
+
+extern int XAPrepared(); // 0x000830F0
+extern void UnprepareXA(); // 0x00082E68
+extern void StopXA(); // 0x00082F78
+
+extern void ResumeXA(); // 0x00083050
+extern void PauseXA(); // 0x00083078
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

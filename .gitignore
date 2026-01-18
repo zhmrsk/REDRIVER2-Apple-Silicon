@@ -1,0 +1,71 @@
+# Build artifacts
+src_rebuild/bin/
+src_rebuild/project_*/
+src_rebuild/obj/
+src_rebuild/dependencies/
+*.o
+*.a
+*.so
+*.dylib
+*.app
+*.exe
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Game assets (too large, users extract from discs)
+data/DRIVER2/*.BIN
+data/DRIVER2/*.STR
+data/DRIVER2/*.XA
+data/DRIVER2/FMV/
+data/DRIVER2/XA/
+data/DRIVER2/MISSIONS/*.BIN
+data/DRIVER2/MISSIONS/*.STR
+
+# JRE (too large, users install themselves)
+jre/
+jre_*/
+
+# Backups
+*_backup/
+*_OLD/
+localization_assets/
+localization_backup/
+code_fixes_backup/
+
+# Logs
+*.log
+debug*.log
+*.idx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Build scripts output
+github_files_list.txt
+
+# Platform specific
+windows_dev_prepare.ps1
+
+# Test executables
+src_rebuild/test_*
+!src_rebuild/test_*.cpp
+!src_rebuild/test_*.c
+
+# Generated files
+src_rebuild/REDRIVER2_Setup

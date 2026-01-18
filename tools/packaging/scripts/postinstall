@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Define the app path
+APP_PATH="/Applications/REDRIVER2.app"
+
+# Remove quarantine attribute if it exists
+if [ -d "$APP_PATH" ]; then
+    echo "Fixing permissions for $APP_PATH..."
+    xattr -cr "$APP_PATH"
+    # Grant write permissions to data directory for extraction
+    chmod -R 777 "$APP_PATH/Contents/Resources/data"
+    echo "Permissions fixed."
+fi
+
+exit 0
